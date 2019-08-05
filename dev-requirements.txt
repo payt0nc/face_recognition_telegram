@@ -1,0 +1,4 @@
+# Development tool
+pylint
+coverage
+telethon

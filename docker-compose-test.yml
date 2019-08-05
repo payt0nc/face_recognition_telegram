@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  mongo:
+    image: mongo
+    volumes:
+    - "mongo:/data/db"
+  recog:
+    build:
+      context: .
+      dockerfile: Dockerfile-test
+    depends_on:
+    - mongo
+volumes:
+  mongo:

@@ -1,0 +1,4 @@
+python3 /usr/local/bin/pylint *.py
+python3 /usr/local/bin/pylint controller/*.py
+python3 /usr/local/bin/pylint --disable=R0801,I1101 model/*.py
+python3 /usr/local/bin/pylint --disable=R0801 test/*.py

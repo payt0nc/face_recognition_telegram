@@ -1,0 +1,6 @@
+*.md
+__pycache__
+model/__pycache__
+*.pyc
+.DS_Store
+.git
